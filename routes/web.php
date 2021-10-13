@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NavController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [NavController:: class, 'index']);
+Route::get('/page2', [NavController:: class, 'page_2']);
+Route::get('/page3', [NavController:: class, 'page_3']);
 
-
+/*
 Route::get('/page2', function () {
     return view('page2');
 });
@@ -26,5 +27,5 @@ Route::get('/page2', function () {
 Route::get('/page3', function () {
     return view('page3');
 });
-
+*/
 
