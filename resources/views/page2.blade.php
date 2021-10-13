@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Welcome')
+@section('title', 'ma page 2')
 
-@section('h1', 'ma page Welcome')
-
+@section('h1', 'ma page 2')
 @section('content')
     
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

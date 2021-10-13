@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Welcome')
+@section('title', 'ma page 3')
 
-@section('h1', 'ma page Welcome')
+@section('h1', 'ma page 3')
 
 @section('content')
     
