@@ -6,11 +6,37 @@ body {
 h1 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 50px; 
     color: red;
+    text-align: center;
 }
-p {color: khaki;}
-img {
+p {color: whitesmoke;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.monimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     height: 250px;
+}
+
+form{
+	border: 1px solid #38586A;
+	background-color:#38586A;
+    width: 250px;  
+    border-radius: 30px;
+    text-align: center;
+    border: 4mm ridge rgba(61, 56, 53, 0.6);
+    margin-left: auto;
+    margin-right: auto;
     
+}
+
+.field {
+	margin-left: auto;
+    margin-right: auto;
+	font-weight:bold;
     
 }

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NavController;
+use App\Http\Controllers\BookController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +19,9 @@ use App\Http\Controllers\NavController;
 Route::get('/', [NavController:: class, 'index']);
 Route::get('/page2', [NavController:: class, 'page_2']);
 Route::get('/page3', [NavController:: class, 'page_3']);
+Route::get('/library', [BookController:: class, 'library']);
+Route::get('/create', [BookController:: class, 'create']);
+Route::post('/create1', [BookController:: class, 'store']);
 
 /*
 Route::get('/page2', function () {

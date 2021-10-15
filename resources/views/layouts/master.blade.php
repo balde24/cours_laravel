@@ -14,29 +14,23 @@
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/">Welcome</a></li>
-                <li class="nav-item"><a class="nav-link" href="/page2">ma page 2</a></li>
-                <li class="nav-item"><a class="nav-link" href="/page3">ma page 3</a></li>
-            </ul>
+            
+                <a class="navbar-brand" href="/">Welcome</a>
+                <a class="navbar-brand" href="/page2">ma page 2</a>
+                <a class="navbar-brand" href="/page3">ma page 3</a>
+                <a class="navbar-brand" href="/library">my library</a>
+                <a class="navbar-brand" href="/create">Ajouter un livre</a>
+            
         </nav>
     </header>
 
     <main>
-        <img src="/img/livre.png" alt="image">
+        <img class='monimage'  src="/img/livre.png" alt="image">
         <h1> @yield('h1')</h1>
         @yield('content')
 
     </main>
-    <footer>
-        <nav class="navbar navbar-dark bg-dark">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/">Welcome</a></li>
-                <li class="nav-item"><a class="nav-link" href="/page2">ma page 2</a></li>
-                <li class="nav-item"><a class="nav-link" href="/page3">ma page 3</a></li>
-            </ul>
-        </nav>
-    </footer>
+
     <!-- JavaScript Bundle with Popper -->
     <script>
     src = "/js/bootstrap.min.js"
